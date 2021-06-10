@@ -118,8 +118,6 @@ main #seta-baixo {
     padding: 10px;
     border-radius: 5px;
     z-index: 2;
-    margin: 0 auto;
-    scroll-behavior: smooth;
 }
 
 main #seta-baixo:hover {
@@ -281,7 +279,7 @@ main #seta-baixo:hover {
     color: white;
 }
 
-#conhecimentos  .box {
+#conhecimentos .box {
     width: 90vw;
     display: flex;
     flex-wrap: wrap;

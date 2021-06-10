@@ -1,0 +1,113 @@
+@media only screen and (max-width: 426px) {
+    header nav ul li {
+        margin: 0 15px;
+    }
+
+    main {
+        height: 70vh;
+    }
+
+    main #img-tecnologia {
+        display: none;
+    }
+
+    main .text-main {
+        text-align: center;
+        margin: 0;
+    }
+
+    main .text-main p {
+        font-size: 1rem;
+    }
+
+    main .text-main h1 {
+        font-size: 3rem;
+    }
+
+    main .text-main button {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+    main #seta-baixo {
+        display: none;
+    }
+
+    #sobre {
+        height: 150vh;
+    }
+
+    #sobre .content-aside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sobre .content-aside .picture {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #sobre .content-aside .picture img {
+        width: 250px;
+    }
+
+    #sobre .content-aside .text-sobre {
+        width: 100%;
+    }
+
+    #sobre .content-aside .text-sobre h2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #sobre .content-aside .text-sobre p {
+        font-size: .9rem;
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+    #sobre .content-aside .text-sobre .buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sobre .content-aside .text-sobre .buttons a button {
+        font-size: 1rem;
+    }
+
+    #projetos .content-projeto .box-projetos .projeto {
+        width: 100%;
+    }
+
+    #projetos .content-projeto .box-projetos .projeto  h2 {
+        font-size: 1.1rem;
+    }
+
+    #projetos .content-projeto .box-projetos .projeto p {
+        font-size: .9rem;
+        letter-spacing: 0px;
+        line-height: 1.5;
+    }
+
+    #conhecimentos .box {
+        justify-content: center;
+    }
+
+    #conhecimentos  .box .box-conhecimento {
+        width: 35vw;
+        height: 150px;
+    }
+
+    #conhecimentos  .box .box-conhecimento p {
+        font-size: 1rem;
+    }
+
+    #conhecimentos  .box .box-conhecimento #logoSeo {
+        width: 110px;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
