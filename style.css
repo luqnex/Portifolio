@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8388FD;
+    box-shadow: black 2px 2px 10px;
+    position: relative;
+    z-index: 2;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    margin: 0 50px; 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    cursor: pointer;
+    color: rgb(231, 231, 231);
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8388FD;
+}
+
+main #img-tecnologia {
+    width: 600px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+main .text-main {
+    text-align: start;
+    color: #ffffff;
+    margin-left: 80px;
+    z-index: 2;
+}
+
+main .text-main p {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+main .text-main h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+main .text-main button {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    color: #ffff;
+    background-color: #1B1F7D;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+main .text-main button:hover {
+    background-color: #121458;
+    cursor: pointer;
+}
+
+main #seta-baixo {
+    width: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 50vw;
+    background-color: #1B1F7D;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+main #seta-baixo:hover {
+    cursor: pointer;
+    background-color: #121458;
+}
+
+#sobre {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #41437D;
+}
+
+#sobre .content-aside {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sobre .content-aside .picture {
+    width: 50vw;
+}
+
+#sobre .content-aside .picture img {
+    width: 400px;
+}
+
+#sobre .content-aside .text-sobre {
+    width: 50vw;
+    color: #ffff;
+    padding: 10px;
+}
+
+#sobre .content-aside .text-sobre h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#sobre .content-aside .text-sobre p {
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+#sobre .content-aside .text-sobre a button {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    margin: 30px 10px 0 0;
+    color: #ffff;
+    background-color: #1B1F7D;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+#sobre .content-aside .text-sobre a button:hover {
+    background-color: #121458;
+    cursor: pointer;
+}
+
+#projetos {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8388FD;
+    color: #ffff;
+    padding-bottom: 100px;
+}
+
+#projetos .content-projeto {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#projetos .content-projeto h2 {
+    margin: 80px 0 50px 0;
+}
+
+#projetos .content-projeto .box-projetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#projetos .content-projeto .box-projetos .projeto {
+    width: 380px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 5px;
+    background-color: #373C7D;
+    color: white;
+    margin: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    text-align: start;
+    border: 5px solid #373C7D;
+    transition: .6s;
+}
+
+#projetos .content-projeto .box-projetos .projeto:hover {
+    border: 5px solid #1D29CC;
+    transition: .6s;
+}
+
+#projetos .content-projeto .box-projetos .projeto h2 {
+    margin: 0 0 20px 0;
+}
+
+#projetos .content-projeto .box-projetos .projeto p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+#projetos .content-projeto .box-projetos .projeto a button {
+    padding: 10px 25px;
+    font-size: 1rem;
+    margin: 30px 10px 0 0;
+    color: #ffff;
+    background-color: #1B1F7D;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+#projetos .content-projeto .box-projetos .projeto a button:hover {
+    background-color: #121458;
+    cursor: pointer;
+}
+
+#conhecimentos  {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #41437D;
+    padding: 100px 0;
+}
+
+#conhecimentos  h2 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#conhecimentos  .box {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#conhecimentos  .box .box-conhecimento {
+    width: 170px;
+    height: 200px;
+    border: 5px solid #8388FD;
+    border-radius: 5px;
+    background-color: #8388FD;
+    margin: 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .6s;
+}
+
+#conhecimentos  .box .box-conhecimento:hover {
+    border: 5px solid #1D29CC;
+    transition: .6s;
+}
+
+#conhecimentos  .box .box-conhecimento p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#conhecimentos  .box .box-conhecimento #logoHtml {
+    width: 100px;
+}
+
+#conhecimentos  .box .box-conhecimento #logoCss {
+    width: 100px;
+}
+
+#conhecimentos  .box .box-conhecimento #logoJs {
+    width: 110px;
+}
+
+#conhecimentos  .box .box-conhecimento #logoGit {
+    width: 95px;
+}
+
+#conhecimentos  .box .box-conhecimento #logoGithub {
+    width: 170px;
+}
+
+#conhecimentos  .box .box-conhecimento #logoSeo {
+    width: 150px;
+    margin-top: 15px;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: #8388FD;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p a:hover {
+    color: #121458;
+    text-decoration: underline ;
+}
