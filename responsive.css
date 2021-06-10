@@ -4,7 +4,7 @@
     }
 
     main {
-        height: 50vh;
+        height: 60vh;
     }
 
     main #img-tecnologia {
@@ -27,6 +27,7 @@
     main .text-main button {
         font-size: 1rem;
         margin-top: 20px;
+        z-index: 2;
     }
 
     main #seta-baixo {
