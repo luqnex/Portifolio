@@ -4,7 +4,7 @@
     }
 
     main {
-        height: 70vh;
+        height: 50vh;
     }
 
     main #img-tecnologia {
@@ -34,7 +34,7 @@
     }
 
     #sobre {
-        height: 150vh;
+        height: 100vh;
     }
 
     #sobre .content-aside {
